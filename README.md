@@ -1,7 +1,5 @@
 # MicroSpringBoot - IoC Web Framework
 
-## Description
-
 MicroSpringBoot is an IoC (Inversion of Control) web framework built in Java that allows you to create web applications from POJOs (Plain Old Java Objects) using annotations. The framework uses reflection to automatically discover components and create REST services. This implementation demonstrates how to build from scratch an embedded HTTP server, annotation processing via reflection, and automatic component discovery without depending on external frameworks.
 
 ## Features
@@ -356,12 +354,6 @@ java -jar target/web-framework-1.0-SNAPSHOT.jar &
 - Reflection: Java Reflection API for automatic component discovery
 - Concurrent execution: ExecutorService for handling multiple requests
 - Cloud: AWS EC2 with Amazon Linux 2
-
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
 
 To deploy on AWS:
 
