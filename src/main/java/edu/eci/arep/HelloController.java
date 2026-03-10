@@ -5,7 +5,7 @@ public class HelloController {
 
     @GetMapping("/")
     public static String index(){
-        return "Greetings from SpringBoot";
+        return "Greetings from MicroSpringBoot";
     }
 
     @GetMapping("/pi")
